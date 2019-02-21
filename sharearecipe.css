@@ -1,0 +1,58 @@
+body {
+	background-color: powderblue;
+	overflow-x: hidden;
+	font-family: 'Coiny', sans-serif;
+}
+
+
+.page-title {
+	text-align: center;
+	color: #6A5ACD;
+	font-size: 25px;
+	position: relative;
+	top: 15px;
+}
+
+.quote {
+	text-align: center;
+	font-style: italic;
+	font-size:23px;
+	position:relative;
+	bottom:10px;
+}
+
+.manual-submission {
+	color:#6A5ACD;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.recipeform  {
+	font-size:30px;
+	position:relative;
+	left:493px;
+	bottom:10px;
+	width:400px;
+	height:400px;
+
+}
+
+.recipeform input {
+	margin-bottom:25px;
+	font-size:20px;
+}
+
+.recipeform textarea {
+	font-size:18px;
+	margin-bottom:25px;
+}
+
+#submitbutton {
+	text-align:center;
+	border:none;
+	position: relative;
+	left:80px;
+	top:10px;
+	cursor: pointer;
+}

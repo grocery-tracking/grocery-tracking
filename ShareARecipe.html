@@ -1,0 +1,44 @@
+<html>
+<header>
+<title>Share a Recipe</title>
+<link rel="stylesheet" type="text/css" href="sharearecipe.css"/>
+<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+</header>
+<body>
+	<div class = "page-title">
+		<h1>Share a Recipe</h1>
+	</div>
+
+	<div class = "quote">
+		</p>"A recipe is a story that ends with a good meal."
+		<br /> -Pat Conroy, author</p>
+	</div>
+
+	<div class = "manual-submission">
+		<p>Submit Manually</p>
+	</div>
+
+	<div class="recipeform">
+		<form onsubmit="alert('Submitted Successfully!')">
+		Your name (First, Last):<br>
+		<input type="text" name="firstname" autocomplete="off" required="required"><br>
+		Recipe name:<br>
+		<input type="text" name="lastname" autocomplete="off" required="required"><br>
+		Ingredients and Measurements (as a numbered list):<br>
+		<textarea rows="12" cols="25" required="required"></textarea><br>
+		Preparation time:<br>
+		<input type="text" name="preparationtime" required="required"><br>
+		Procedure (as a numbered list of steps):<br>
+		<textarea rows="15" cols="35" required="required"></textarea><br>
+		Difficulty level:<br>
+		<input type="radio" name="level" value="novice" required="required"> Novice<br>
+		<input type="radio" name="level" value="souschef">Sous Chef<br>
+		<input type="radio" name="level" value="executivechef">Executive Chef<br>
+		<input type = "submit" id="submitbutton">
+		</form>
+	</div>
+
+</body>
+
+</html>
+
