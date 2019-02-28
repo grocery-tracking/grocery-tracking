@@ -1,0 +1,206 @@
+body {
+  background-color: powderblue;
+  overflow-x: hidden;
+  font-family: 'Coiny', sans-serif;
+  text-align:center;
+  position:relative;
+  top:100px;
+}
+
+.pagetitle {
+  position:relative;
+  bottom:150px;
+  text-align:center;
+  color: #6A5ACD;
+  font-size: 25px;
+}
+
+.quote {
+  text-align: center;
+  font-style: italic;
+  font-size:21px;
+  position:relative;
+  bottom:180px;
+}
+
+a:visited {color: blue;}
+
+.recipename {
+width:60%;
+color:black;
+}
+
+.inglist {
+  width:40%;
+}
+
+#myInput {
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  position:relative;
+  top:160px;
+  display:inline-grid;
+}
+
+#myTable {
+  position:relative;
+  left:313px;
+  bottom:105px;
+  border-collapse: collapse; /* Collapse borders */
+  width: 50%; 
+  border: 1px solid black; 
+  font-size: 18px; 
+
+}
+
+#myTable th, #myTable td {
+  text-align: left; 
+  padding: 12px; 
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid black; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: white;
+}
+
+.recipename1 {
+width:60%;
+color:black;
+}
+
+.inglist1 {
+  width:40%;
+  text-align:center;
+}
+
+#myInput2 {
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 15px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  display:inline-grid;
+  position:relative;
+  bottom:50px;
+}
+
+#myTable2 {
+  position:relative;
+  left:313px;
+  bottom:43px;
+  border-collapse: collapse; 
+  width: 50%; 
+  border: 1px solid black; 
+  font-size: 18px; 
+
+}
+
+#myTable2 th, #myTable2 td {
+  text-align: left; 
+  padding: 12px; 
+}
+
+#myTable2 tr {
+  border-bottom: 1px solid black; 
+}
+
+#myTable2 tr.header, #myTable2 tr:hover {
+  background-color: white;
+}
+
+.btn-title {
+  font-size:20px;
+  display:inline-grid;
+ position:relative;
+ right:50px;
+}
+
+
+.filterDiv {
+  display:inline-block;
+  position:relative;
+  right:5px;
+  top:30px;
+  background-color: #6A5ACD;
+  font-size:20px;
+  color: #ffffff;
+  width: 200px;
+  line-height: 90px;
+  text-align: center;
+  margin: 2px;
+
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  margin-left:5px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  position:relative;
+  right:45px;
+}
+
+/* Add a light grey background when hovering */
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+.btn-title2 {
+  font-size:20px;
+  display:inline-grid;
+ position:relative;
+ right:50px;
+ top:120px;
+}
+
+
+.filterDiv2 {
+  display:inline-block;
+  position:relative;
+  right:5px;
+  top:150px;
+  background-color: #6A5ACD;
+  font-size:20px;
+  color: #ffffff;
+  width: 200px;
+  line-height: 90px;
+  text-align: center;
+  margin: 2px;
+
+}
+
+.btn2 {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  margin-left:5px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  position:relative;
+  right:45px;
+  top:120px;
+}
+
+.btn2:hover {
+  background-color: #ddd;
+}
+
+.btn2.active {
+  background-color: #666;
+  color: white;
+}

@@ -1,0 +1,21 @@
+body {
+	background-color: powderblue;
+	overflow-x: hidden;
+	font-family: 'Avenir', sans-serif;
+	text-align:center;
+	font-weight:500;
+	}
+
+
+.preptime {
+	padding-bottom:8px;
+
+}
+
+.level {
+	padding-bottom: 8px;
+}
+
+.ings {
+	padding-bottom: 8px;
+}

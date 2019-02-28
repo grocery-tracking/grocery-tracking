@@ -1,0 +1,89 @@
+<html>
+<header>
+<title>Find a Recipe (Table)</title>
+<link rel="stylesheet" type="text/css" href="table.css"/>
+<link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+<script src="table.js"></script>
+</header>
+<body><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for recipe name...">
+  <div class = "pagetitle">
+    <h1>Find a Recipe</h1>
+  </div>
+
+  <div class = "quote">
+    <p>"When you have good ingredients, cooking doesn't 
+    <br/> require a lot of instruction because you can never go very wrong"
+    <br /> -Alice Waters, chef</p>
+  </div>
+
+<table id="myTable">
+  <tr class="header">
+    <th class = "recipename">Recipe Name</th>
+    <th class = "inglist" hidden>Ingredients</th>
+  </tr>
+  <tr>
+    <td> <a href="ScrambledEggs.html">Scrambled Eggs</td>
+    <td hidden>eggs, salt, pepper</td>
+  </tr>
+  <tr>
+    <td><a href="Sandwich.html">Sandwich</td>
+    <td hidden>bread, cheese, cucumber</td>
+  </tr>
+  <tr>
+    <td><a href="EggsBenedict.html">Eggs Benedict</td>
+    <td hidden>eggs, bacon, spinach, hollandaise</td>
+  </tr>
+</table>
+
+<input type="text" id="myInput2" onkeyup="myFunction2()" placeholder="Search for ingredients...">
+  
+
+<table id="myTable2">
+  <tr class="header">
+    <th class = "recipename1">Recipe Name</th>
+    <th class = "inglist1" hidden>Ingredients</th>
+  </tr>
+  <tr>
+    <td> <a href="ScrambledEggs.html">Scrambled Eggs</td>
+    <td hidden>eggs, salt, pepper</td>
+  </tr>
+  <tr>
+    <td><a href="Sandwich.html">Sandwich</td>
+    <td hidden>bread, cheese, cucumber</td>
+  </tr>
+  <tr>
+    <td><a href="EggsBenedict.html">Eggs Benedict</td>
+    <td hidden>eggs, bacon, spinach, hollandaise</td>
+  </tr>
+</table>
+
+<div id="buttoncontainer">
+  <div class="btn-title">Select Difficulty Level:</div>
+  <button class="btn"> Novice</button>
+  <button class="btn">Sous Chef</button>
+  <button class="btn"> Executive Chef</button>
+</div>
+
+<!-- The filterable elements -->
+<div class="container">
+  <div class="filterDiv">Scrambled Eggs</div>
+  <div class="filterDiv">Sandwich</div>
+  <div class="filterDiv">Eggs Benedict</div>
+</div>
+
+<div id="buttoncontainer2">
+  <div class="btn-title2">Select Prep Time:</div>
+  <button class="btn2"> < 30 minutes</button>
+  <button class="btn2">30-60 minutes</button>
+  <button class="btn2"> > 60 minutes</button>
+</div>
+
+
+<div class="container2">
+  <div class="filterDiv2">Scrambled Eggs</div>
+  <div class="filterDiv2">Sandwich</div>
+  <div class="filterDiv2">Eggs Benedict</div>
+</div>
+
+</body>
+</html>
